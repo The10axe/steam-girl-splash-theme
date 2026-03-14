@@ -98,6 +98,7 @@ rm -r -f ~/.local/share/plasma/look-and-feel/steam-girl-splash-theme/ ~/.config/
 
 <img src="preview.png" width="500">
 
-![steamgirl.gif](contents/splash/images/steamgirl.gif)
+<img src="contents/splash/images/steamgirl.gif" width="500">
 
+https://github.com/user-attachments/assets/b78af2e6-8ebf-44e6-b227-ab5f8db7cd4f
 
