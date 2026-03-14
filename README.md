@@ -2,7 +2,7 @@ I couldn't figure out how to add a delay to the Splash Screen code to prevent th
 
 
 
-Steps to setup the delay to let the Splash play all the way through.
+## To setup the Desktop delay so that the whole thing play without instantly loading the desktop
 
 1. type "nano ~/.nanorc" in the termnial.
 
@@ -10,7 +10,6 @@ Steps to setup the delay to let the Splash play all the way through.
 
 
 
-## To setup the Desktop load delay to let the whole thing play without instantly loading the desktop
 
 Nano Config:
 ```sh
@@ -50,7 +49,7 @@ systemctl --user disable splash-delay.service
 
 To install the Splash screen you can use:
 ```sh
-mv "PATH_TO_THE_SPLASH_SCREEN" ~/.local/share/plasma/look-and-feel/
+mv ~"PATH_TO_THE_SPLASH_SCREEN_LOCATION" ~/.local/share/plasma/look-and-feel/
 ```
 
 
