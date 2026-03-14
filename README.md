@@ -1,6 +1,13 @@
 I couldn't figure out how to add a delay to the Splash Screen code to prevent the Desktop from loading instantly but I did figure out how to force delay the plasma 5 desktop using a startup command.
 
 
+### Install to settings setup
+
+To install the Splash screen you can use:
+```sh
+mv ~"PATH_TO_THE_SPLASH_SCREEN_LOCATION" ~/.local/share/plasma/look-and-feel/
+```
+
 
 ## To setup the Desktop delay so that the whole thing play without instantly loading the desktop
 
@@ -11,7 +18,7 @@ I couldn't figure out how to add a delay to the Splash Screen code to prevent th
 
 
 
-Nano Config:
+Add To Nano Config:
 ```sh
 [Unit]
 Description=Wait for Splash Animation
@@ -26,9 +33,9 @@ RemainAfterExit=yes
 WantedBy=plasma-workspace.target
 ```
 
-3. save the nano config (DON'T RENAME IT)
+3. save the nano config (DON'T RENAME IT otherwise the command on the next step won't work.)
 
-4. Enable the nano config
+4. Enable the nano config.
 
 Enable the nano config:
 ```sh
@@ -45,11 +52,6 @@ To disable the nano config type:
 systemctl --user disable splash-delay.service
 ```
 
-### Install to settings setup
 
-To install the Splash screen you can use:
-```sh
-mv ~"PATH_TO_THE_SPLASH_SCREEN_LOCATION" ~/.local/share/plasma/look-and-feel/
-```
 
 
