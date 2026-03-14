@@ -83,7 +83,10 @@ systemctl --user disable splash-delay.service
 
 
 
-### Uninstall
+## Uninstall
+
+
+### This disables the delay and uninstalls all the file related to <u>steam-girl-splash-theme</u>
 ```sh
 systemctl --user disable splash-delay.service
 
