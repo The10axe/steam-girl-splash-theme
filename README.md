@@ -25,7 +25,7 @@ I couldn't figure out how to add a delay to the Splash Screen code to prevent th
 
 To install the Splash screen you can use:
 ```sh
-mv ~"PATH_TO_THE_SPLASH_SCREEN_LOCATION" ~/.local/share/plasma/look-and-feel/
+mv ~/"PATH_TO_THE_SPLASH_SCREEN_LOCATION"/ ~/.local/share/plasma/look-and-feel/
 ```
 
 
