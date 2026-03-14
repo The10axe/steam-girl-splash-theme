@@ -31,14 +31,21 @@ mv ~/"PATH_TO_THE_SPLASH_SCREEN_LOCATION"/ ~/.local/share/plasma/look-and-feel/
 
 ## To setup the Desktop delay so that the whole thing plays without instantly loading the desktop
 
-1. type "nano ~/.nanorc" in the termnial.
+1. If you don't have a mkdir -p ~/.config/systemd/user/ use this command to make one:
+```sh
+mkdir -p ~/.config/systemd/user/
+```
+ 
+2. type in termnial:
+```sh
+nano ~/.config/systemd/user/splash-delay.service
+```
 
-2. add the text below to the nano config.
 
 
 
 
-Add To Nano Config:
+3.Add To Nano Config:
 ```sh
 [Unit]
 Description=Wait for Splash Animation
@@ -55,9 +62,8 @@ WantedBy=plasma-workspace.target
 
 3. save the nano config (DON'T RENAME IT otherwise the command on the next step won't work.)
 
-4. Enable the nano config.
 
-Enable the nano config:
+4.Enable the nano config:
 ```sh
 systemctl --user enable splash-delay.service
 ```
