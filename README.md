@@ -96,4 +96,4 @@ rm -r -f ~/.local/share/plasma/look-and-feel/steam-girl-splash-theme/ ~/.config/
 
 ## Preveiw
 
-![steam-girl-splash-theme preveiw](https://imgur.com/a/steam-girl-splash-theme-5j3qtpQ)
+#WIP
