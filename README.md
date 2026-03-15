@@ -127,6 +127,6 @@ https://github.com/user-attachments/assets/b78af2e6-8ebf-44e6-b227-ab5f8db7cd4f
 ```sh
 systemctl --user disable splash-delay.service
 
-rm -r -f ~/.local/share/plasma/look-and-feel/steam-girl-splash-theme/ ~/.config/systemd/user/plasma-workspace.target.wants/splash-delay.service/ ~/.config/systemd/user/timers.target.wants/ ~/.config/systemd/user/splash-delay.service
+rm -r -f ~/.local/share/plasma/look-and-feel/steam-girl-splash-theme/ ~/.config/systemd/user/plasma-workspace.target.wants/splash-delay.service/ ~/.config/systemd/user/splash-delay.service
 ```
 
