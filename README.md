@@ -25,7 +25,7 @@ I couldn't figure out how to add a delay to the Splash Screen code to prevent th
 
 <div>&nbsp;</div>
 
-### Discovered a BUG with the DELAY SCRIPT SPAMMING SYSLOG LOGS
+### Discovered a BUG with the SPLASH-DELAY SCRIPT SPAMMING SYSLOG LOGS
 
 > 3/14/26 9:49pm Should be resovled if Issue persist Please Vist Issues for updates and patch fixes on the problem
 
