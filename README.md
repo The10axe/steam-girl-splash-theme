@@ -23,7 +23,9 @@ But there will be a Plasma 6 Version in devlopment in the future for all you Pla
 ## IMPORANT
 I couldn't figure out how to add a delay to the Splash Screen code to prevent the Desktop from loading instantly but I did figure out how to force delay the plasma 5 desktop using a startup command.
 
-### Discovered a MAJOR BUG with the DELAY SCRIPT SPAMMING SYSLOG LOGS please see Issues tab for temporary fix on the issue
+### Discovered a BUG with the DELAY SCRIPT SPAMMING SYSLOG LOGS please see
+
+> 3/14/26 9:49pm Should be resovled if Issue persist Please Vist Issues for update and fixes on the problem
 
 
 
@@ -53,7 +55,7 @@ nano ~/.config/systemd/user/splash-delay.service
 
 
 
-3.Add To Nano Config (DO NOT USE TILL ISSUE IS FULLY RESLOVED)
+3.Add To Nano Config
 ```sh
 [Unit]
 Description=Wait for Splash Animation
