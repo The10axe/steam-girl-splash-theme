@@ -58,11 +58,22 @@ nano ~/.config/systemd/user/splash-delay.service
 [Unit]
 Description=Wait for Splash Animation
 Before=plasma-workspace.target
+StartLimitIntervalSec=0
+#If it restarts more than 5 times in 10 seconds, STOP it.
+StartLimitBurst=5
+StartLimitIntervalSec=10
 
 [Service]
 Type=oneshot
 ExecStart=/usr/bin/sleep 10 #the number here is for how long to wait before loading the desktop environment the whole video is 9 seconds but I set it to 10 to be safe
 RemainAfterExit=yes
+
+
+# redirect any output from the sleep command to null
+StandardOutput=null
+StandardError=null
+
+LogLevelMax=3
 
 [Install]
 WantedBy=plasma-workspace.target
